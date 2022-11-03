@@ -7,7 +7,7 @@ const packageJson = require('../package.json');
 const domain = process.env.PRODUCTION_DOMAIN;
 
 const prodConfig = {
-    mode: 'production',
+    mode: 'production_v1',
     output: {
         filename: '[name].[contenthash].js'
     },
